@@ -69,3 +69,25 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+
+/*remove extra spacing from the containers*/ 
+.container{
+  margin: auto;
+  
+}
+
+#hour-container, #planner-container, #btn-container,
+.hour-set, .planner, .save-btn{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*set the size of the daily scheduler*/
+.hour-set, .planner{
+  height: 100px;
+  
+}
+
